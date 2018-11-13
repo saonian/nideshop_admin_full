@@ -1,0 +1,15 @@
+[class^="el-icon-fa"], [class*=" el-icon-fa"] {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome!important;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+};
+
+$fa-font-path: "../../node_modules/font-awesome/fonts";
+$fa-css-prefix: "el-icon-fa";
+
+@import "../../node_modules/font-awesome/scss/font-awesome.scss";
+/* elementui 的样式必须放在这里才会显示图标 */
+@import "../../node_modules/element-ui/lib/theme-chalk/index.css";

@@ -1,0 +1,292 @@
+[
+  {
+    "id": 1,
+    "parentId": null,
+    "sort": 0,
+    "name": "首页",
+    "href": "/home",
+    "icon": "fa fa-home",
+    "children": [],
+    "isShow": "1"
+  },
+  {
+    "id": 2,
+    "parentId": null,
+    "sort": 1,
+    "name": "商品管理",
+    "href": "/products",
+    "icon": "fa fa-shopping-bag",
+    "isShow": "1",
+    "children": [
+      {
+        "id": 3,
+        "parentId": 2,
+        "sort": 0,
+        "name": "商品列表",
+        "href": "/products",
+        "icon": "fa fa-shopping-bag",
+        "children": [],
+        "isShow": "1"
+      },
+      {
+        "id": 21,
+        "parentId": 2,
+        "sort": 1,
+        "name": "品牌管理",
+        "href": "/brands",
+        "icon": "fa fa-at",
+        "children": [],
+        "isShow": "1"
+      },
+      {
+        "id": 21,
+        "parentId": 2,
+        "sort": 1,
+        "name": "商品规格",
+        "href": "/products/attributes",
+        "icon": "fa fa-info",
+        "children": [],
+        "isShow": "1"
+      },
+      {
+        "id": 14,
+        "parentId": 3,
+        "sort": 2,
+        "name": "添加商品",
+        "href": "/products/add",
+        "icon": "fa fa-plus",
+        "children": [],
+        "isShow": "1"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "parentId": null,
+    "sort": 2,
+    "name": "分类管理",
+    "href": "/categories",
+    "icon": "fa fa-folder",
+    "isShow": "1",
+    "children": [
+      {
+        "id": 5,
+        "parentId": 4,
+        "sort": 0,
+        "name": "分类列表",
+        "href": "/categories",
+        "icon": "fa fa-folder",
+        "children": [],
+        "isShow": "1"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "parentId": null,
+    "sort": 6,
+    "name": "专题管理",
+    "href": "/articles",
+    "icon": "fa fa-coffee",
+    "isShow": "1",
+    "children": [
+      {
+        "id": 13,
+        "parentId": 12,
+        "sort": 0,
+        "name": "专题列表",
+        "href": "/articles",
+        "icon": "fa fa-coffee",
+        "children": [],
+        "isShow": "1"
+      },
+      {
+        "id": 18,
+        "parentId": 12,
+        "sort": 0,
+        "name": "添加专题",
+        "href": "/articles/add",
+        "icon": "fa fa-coffee",
+        "children": [],
+        "isShow": "1"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "parentId": null,
+    "sort": 3,
+    "name": "客户管理",
+    "href": "/customers",
+    "icon": "fa fa-users",
+    "isShow": "1",
+    "children": [
+      {
+        "id": 7,
+        "parentId": 6,
+        "sort": 0,
+        "name": "客户列表",
+        "href": "/customers",
+        "icon": "fa fa-users",
+        "children": [],
+        "isShow": "1"
+      },
+      {
+        "id": 15,
+        "parentId": 6,
+        "sort": 0,
+        "name": "收货地址",
+        "href": "/addresses",
+        "icon": "fa fa-map-marker",
+        "children": [
+          {
+            "id": 16,
+            "parentId": 15,
+            "sort": 0,
+            "name": "地址列表",
+            "href": "/addresses",
+            "icon": "fa fa-map-marker",
+            "children": [],
+            "isShow": "1"
+          }
+        ],
+        "isShow": "1"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "parentId": null,
+    "sort": 4,
+    "name": "订单管理",
+    "href": "/orders",
+    "icon": "fa fa-money",
+    "isShow": "1",
+    "children": [
+      {
+        "id": 9,
+        "parentId": 8,
+        "sort": 0,
+        "name": "订单列表",
+        "href": "/orders",
+        "icon": "fa fa-money",
+        "children": [],
+        "isShow": "1"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "parentId": null,
+    "sort": 0,
+    "name": "优惠券管理",
+    "href": "/coupons",
+    "icon": "fa fa-ticket",
+    "children": [
+      {
+        "id": 25,
+        "parentId": 24,
+        "sort": 0,
+        "name": "优惠券列表",
+        "href": "/coupons",
+        "icon": "fa fa-ticket",
+        "children": [],
+        "isShow": "1"
+      },
+      {
+        "id": 26,
+        "parentId": 6,
+        "sort": 0,
+        "name": "添加优惠券",
+        "href": "/coupons/add",
+        "icon": "fa fa-plus",
+        "children": [],
+        "isShow": "1"
+      }
+    ],
+    "isShow": "1"
+  },
+  {
+    "id": 10,
+    "parentId": null,
+    "sort": 5,
+    "name": "物流管理",
+    "href": "/couriers",
+    "icon": "fa fa-truck",
+    "isShow": "1",
+    "children": [
+      {
+        "id": 11,
+        "parentId": 10,
+        "sort": 0,
+        "name": "快递列表",
+        "href": "/couriers",
+        "icon": "fa fa-truck",
+        "children": [],
+        "isShow": "1"
+      },
+      {
+        "id": 17,
+        "parentId": 10,
+        "sort": 0,
+        "name": "添加快递",
+        "href": "/couriers/add",
+        "icon": "fa fa-plus",
+        "children": [],
+        "isShow": "1"
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "parentId": null,
+    "sort": 5,
+    "name": "广告管理",
+    "href": "/ads",
+    "icon": "fa fa-adn",
+    "isShow": "1",
+    "children": [
+      {
+        "id": 111,
+        "parentId": 10,
+        "sort": 0,
+        "name": "广告列表",
+        "href": "/ads",
+        "icon": "fa fa-adn",
+        "children": [],
+        "isShow": "1"
+      },
+      {
+        "id": 171,
+        "parentId": 10,
+        "sort": 0,
+        "name": "添加广告",
+        "href": "/ads/add",
+        "icon": "fa fa-plus",
+        "children": [],
+        "isShow": "1"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "parentId": null,
+    "sort": 6,
+    "name": "系统设置",
+    "href": "/employees",
+    "icon": "fa fa-cog",
+    "isShow": "1",
+    "children": [
+      {
+        "id": 20,
+        "parentId": 19,
+        "sort": 0,
+        "name": "管理员",
+        "href": "/employees",
+        "icon": "fa fa-user",
+        "children": [],
+        "isShow": "1"
+      }
+    ]
+  }
+]
